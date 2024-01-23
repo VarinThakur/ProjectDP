@@ -15,7 +15,7 @@ Steps to run the project -
     `\env\Scripts\activate`
 
     On Linux
-    env/Scripts/activate.sh
+    `env/Scripts/activate.sh`
 
 5. Install the required dependencies
     `pip install -r requirements.txt`

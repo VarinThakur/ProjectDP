@@ -1,19 +1,36 @@
 Steps to run the project -
 
-1. Activate the virtual environment
+1. Ensure you're running python 3.11
+    `python --version`
+
+2. Install virtualenv to create a virtual environment
+    `pip install virtualenv`
+
+3. Create a virtual environment
+    `virtualenv env`
+
+4. Activate the virtual environment
 
     On Windows
     `\env\Scripts\activate`
 
-2. Go to the ProjectDP directory
+    On Linux
+    env/Scripts/activate.sh
+
+5. Install the required dependencies
+    `pip install -r requirements.txt`
+
+6. Go to the ProjectDP directory
 
     `cd ProjectDP`
 
-3. Run the App (/plotter endpoint for finding the plot)
+7. Run the App (/plotter endpoint for finding the plot)
 
     `python manage.py runserver`
 
+
 Refered links for making the project -
+
 - https://github.com/holoviz/panel/issues/865
 - https://panel.holoviz.org/how_to/integrations/Django.html
 - https://panel.holoviz.org/getting_started/build_app.html
